@@ -48,7 +48,7 @@ input:checked + .slider:before {
 
 /* Black background color */
 body {
-  background-color: ivory;
+  background-color: rgb(255, 0 ,255);
   margin: 20px;
 }
 

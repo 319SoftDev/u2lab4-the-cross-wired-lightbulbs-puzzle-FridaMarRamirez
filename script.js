@@ -54,18 +54,17 @@ const change29 = () => {
 
 switch4.addEventListener('change', change29);
 
-
 // Connecting the fifth switch to lightbulbs 5 & 7
 const switch5 = document.querySelector("#switch5");
 
-const change5 = () => {
+const change57 = () => {
     const light5 = document.querySelector("#lightbulb5");
     light5.classList.toggle("active");
     const light7 = document.querySelector("#lightbulb7");
     light7.classList.toggle("active");
 }
 
-switch5.addEventListener('change', change5);
+switch5.addEventListener('change', change57);
 
 
 // Connecting the sixth switch to lightbulbs 1 & 4
@@ -95,7 +94,7 @@ switch7.addEventListener('change', change23);
 
 
 // Connecting the eighth switch to lightbulbs 5 & 9
-const switch8 = document.querySelector("#switch4");
+const switch8 = document.querySelector("#switch8");
 
 const change59 = () => {
     const light5 = document.querySelector("#lightbulb5");
@@ -177,3 +176,10 @@ const restartSwitches = () => {
 }
 
 restartButton.addEventListener("click", restartSwitches);
+
+
+// randomizing the lights
+const randomizeButton = document.querySelector("#randomize-button");
+
+const randomizingLights = () => {
+}
