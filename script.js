@@ -182,4 +182,10 @@ restartButton.addEventListener("click", restartSwitches);
 const randomizeButton = document.querySelector("#randomize-button");
 
 const randomizingLights = () => {
+    const allLightbulbs = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const shuffled = allLightbulbs.sort(() => Math.random() - 0.5);
+    const selectLights = shuffled.slice(0, 3);
+    console.log(selectLights);
 }
+
+randomizeButton.addEventListener('click', randomizingLights);
